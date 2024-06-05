@@ -15,7 +15,7 @@
 ## CREATE THE CUSTOM DETECT PING RULE
 + Click on the "WAN Rules" tab ![file](assets/3.1.png)
 + In the "Defined Custom Rules" box, enter the following
-+ (bold)alert icmp $EXTERNAL_NET any -> any any (msg:"Ping Detected";sid 999000;) (screenshot 3.2)
++ **alert icmp $EXTERNAL_NET any -> any any (msg:"Ping Detected";sid 999000;) ** ![file](assets/3.2.png)
 + Click "Save"
 
 ## START THE SNORT SERVICE
