@@ -13,13 +13,13 @@
 + You can leave all of the settings as is and click "Save"
 
 ## CREATE THE CUSTOM DETECT PING RULE
-+ Click on the "WAN Rules" tab ![file](assets/3.1.png) 
++ Click on the "WAN Rules" tab ![file](assets/3.1.png)
 + In the "Defined Custom Rules" box, enter the following
 + (bold)alert icmp $EXTERNAL_NET any -> any any (msg:"Ping Detected";sid 999000;) (screenshot 3.2)
 + Click "Save"
 
 ## START THE SNORT SERVICE
-+ Click on the "Snort Interfaces" tab ![file](assets/4.1.png) 
++ Click on the "Snort Interfaces" tab ![file](assets/4.1.png)
 + Click on the "play" button under the "Snort Status" label ![file](assets/4.2.png) 
 
 Once you ping the public IP address of your firewall, you can click on "Services/Snort/Alerts", and see the pings showing up in the logs ![file](assets/5.1.png) 
